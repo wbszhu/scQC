@@ -43,4 +43,10 @@ In single-cell analysis, quality control (QC) is crucial to ensure that the obta
 
 **Reason:** High PCR cycles can lead to over-amplification, skewing the representation of transcripts.
 
-These thresholds may vary based on the specific platform, experimental design, and biological system. It's important to tailor QC metrics to the characteristics of your data and research objectives. Integrating QC into the analysis pipeline ensures high-quality, reliable results in single-cell studies
+These thresholds may vary based on the specific platform, experimental design, and biological system. It's important to tailor QC metrics to the characteristics of your data and research objectives. Integrating QC into the analysis pipeline ensures high-quality, reliable results in single-cell studies.
+
+Some paper:
+1. [Single-cell transcriptomics identifies divergent developmental lineage trajectories during human pituitary development](https://www.nature.com/articles/s41467-020-19012-4#Sec12)
+```
+To filter out low-quality cells and multiple cells sequenced as one cell, we selected only cells with a **gene number ≥ 2000, an initial reads number ≤ 1E7, and a mapping ratio ≥ 20% and genes with at least one count in at least three cells** for the following analysis. The filtered gene expression data set of transcriptional counts was analyzed using the Seurat (Version 2.3.4) package12. As most of the single cells in our data sets were **around 100,000 transcriptional counts, the scale factor was set to 100,000**. The resolution of “FindClusters” was set as 1 for all cells and merged subclusters of MC with the same known markers (Supplementary Fig. 1d, f), 1.5 for endocrine cells and merged subclusters of Stem, Somatotrope and Gonadotrope with the same known markers (Fig. 1b, c), 0.3 for stem cells (Fig. 2c), 0.4 for gonadotropes (Fig. 7a). Main cell types were identified by the combination of known markers for each cluster.
+```
