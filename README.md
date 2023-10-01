@@ -28,8 +28,7 @@ These thresholds may vary based on the specific platform, experimental design, a
 ```
 1E7 = 10,000,000
 ```  
-2.[Single-cell atlas of domestic pig cerebral cortex and hypothalamus](https://www.sciencedirect.com/science/article/pii/S2095927321002589#s0010)
-"  we only retained cells with **the number of detected genes greater than 200 and the percentage of detected mitochondrial genes less than 5%**.  "  
-3. [Endothelial cell heterogeneity and microglia regulons revealed by a pig cell landscape at single-cell level](https://www.nature.com/articles/s41467-022-31388-z)
-"  Cells were only retained if **the number of detected genes were greater than 200 and less than 5000 and the percentage of detected mitochondrial transcripts from MT genes (ATP6, ATP8, COX1, COX2, COX3, CYTB, ND2, ND3, ND4, ND4L, ND5, ND6) was less than 30%**. The Pig ND1 gene was not included in MT-based filtering due to high sequence variant in pigs.  "  
-4.[Single nucleus transcriptome and chromatin accessibility of postmortem human pituitaries reveal diverse stem cell regulatory mechanisms](https://www.sciencedirect.com/science/article/pii/S2211124722002005#sec4.4)
+2.[Single-cell atlas of domestic pig cerebral cortex and hypothalamus](https://www.sciencedirect.com/science/article/pii/S2095927321002589#s0010)  
+"we only retained cells with **the number of detected genes greater than 200 and the percentage of detected mitochondrial genes less than 5%**."  
+3. [Endothelial cell heterogeneity and microglia regulons revealed by a pig cell landscape at single-cell level](https://www.nature.com/articles/s41467-022-31388-z)  
+"Cells were only retained if **the number of detected genes were greater than 200 and less than 5000 and the percentage of detected mitochondrial transcripts from MT genes (ATP6, ATP8, COX1, COX2, COX3, CYTB, ND2, ND3, ND4, ND4L, ND5, ND6) was less than 30%**. The Pig ND1 gene was not included in MT-based filtering due to high sequence variant in pigs."  
